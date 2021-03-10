@@ -13,10 +13,8 @@ namespace CalculatorTest
         {
             int a = 10;
             int b = 10;
-
-            int sum = a + b;
-
-            Assert.AreEqual(sum, 20);
+            //int sum = a + b;
+            Assert.AreEqual( a+b, 20);
         }
 
         /// <summary>
@@ -27,10 +25,8 @@ namespace CalculatorTest
         {
             int a = 100;
             int b = 50;
-
-            int sum = a - b;
-
-            Assert.AreEqual(sum, 50);
+            //int sum = a - b;
+            Assert.AreEqual(a-b, 50);
         }
     }
 }
